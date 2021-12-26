@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Final Challenge</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="clock" class="text-center white">00:00</h1>
+
+    <form id="login-form" class="text-center">
+      <input required maxlength="15" type="text" placeholder="Write Your Name Once">
+      <button type="submit">Click</button>
+    </form>
+    <h1 id="greeting" class="pink text-center hidden"></h1>
+    <form action="#" id="todo-form" class="text-center">
+        <input type="text" placeholder="Write a To Do and Press Enter" required class="width80">
+    </form>
+    <section class="bg-gray text-center width60">
+      <ul id="todo-list">
+      </ul>
+    </section>
+
+
+
+    <script src="js/weather.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/clock.js"></script>
+  </div>
+  <section id="weather">
+      내가 사는 곳 : <span></span><br>
+      날씨 정보 : <span></span>
+  </section>
+
+
+</body>
+
+</html>

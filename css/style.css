@@ -1,0 +1,26 @@
+.hidden {
+  display: none;
+}
+.container {
+  width: 400px;
+  height: 300px;
+}
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+.width80 {
+  width: 80%;
+}
+.width60 {
+  width: 60%;
+}
+.white {
+  color: white;
+}
+.pink {
+  color: pink;
+}
+.bg-gray {
+  background-color: rgb(255, 253, 253);
+}
